@@ -3,9 +3,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: calc(100vh - 80px); /* Adjusting height to exclude navbar */
-    width: 100%;
+    height: calc(100vh - 80px); 
     position: relative;
     z-index: 1;
-    padding-bottom: 0px; /* Space between hero and footer */
+    padding-bottom: 0px; 
 }
