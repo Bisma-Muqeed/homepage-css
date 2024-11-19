@@ -1,0 +1,11 @@
+.heroContainer {
+    background-image: url('/image/Hero (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 80px); /* Adjusting height to exclude navbar */
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 0px; /* Space between hero and footer */
+}
