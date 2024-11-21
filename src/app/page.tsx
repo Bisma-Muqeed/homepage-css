@@ -7,7 +7,11 @@ const page = () => {
   return (
     <div>
      <Header/>
-     <Hero/>
+     <Hero 
+  title="Welcome To BurgerZone" 
+  imageSrc="/image/burger.png" 
+  altText="Burger" 
+/>
      <Footer/>
      
     </div>

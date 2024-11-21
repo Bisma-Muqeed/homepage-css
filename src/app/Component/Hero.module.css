@@ -1,10 +1,37 @@
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%); 
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0); 
+      opacity: 1;
+    }
+  }
 .heroContainer {
-    background-image: url('/image/Hero (1).png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #FFC72C;
     height: calc(100vh - 80px); 
     position: relative;
-    z-index: 1;
+
+    z-index: -1;
     padding-bottom: 0px; 
 }
+.heroImage{
+    position : absolute;
+    top : 90px;
+    left : 560px;
+}
+.h1 {
+    animation: slideIn 2s ease-out;
+    cursor: pointer;
+    font-size: 100px;
+    color: #DA291C;
+    position: absolute;
+    bottom: 100px;
+    Width : 600px;
+    left : 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+  
