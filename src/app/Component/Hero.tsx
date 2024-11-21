@@ -13,7 +13,7 @@ const Hero: React.FC<HeroProps> = ({ title, imageSrc, altText }) => {
   return (
     <div>
       <div className={style.heroContainer}>
-        {/* You can add content inside heroContainer if needed */}
+        
       </div>
       <div className={style.heroImage}>
         <Image
