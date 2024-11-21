@@ -12,7 +12,7 @@
     background-color: #FFC72C;
     height: calc(100vh - 80px); 
     position: relative;
-
+    width : 100%;
     z-index: -1;
     padding-bottom: 0px; 
 }
@@ -24,12 +24,12 @@
 .h1 {
     animation: slideIn 2s ease-out;
     cursor: pointer;
-    font-size: 100px;
+    font-size: 90px;
     color: #DA291C;
     position: absolute;
-    bottom: 100px;
-    Width : 600px;
-    left : 40px;
+    bottom: 150px;
+    Width : 550px;
+    left : 50px;
     font-weight: 700;
     text-align: center;
 }
